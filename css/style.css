@@ -1,0 +1,140 @@
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: .5em 1.5em;
+    font-weight: 700;
+    border-radius: .5em;
+    font-size: .8em;
+}
+/* Header style */
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: .3em;  
+}
+
+.header__navigation {
+
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__links {
+    display: flex;
+    gap: 1em;
+}
+
+/* Hero area styles */
+
+.hero__area {
+    display: flex;
+    padding: 4em 0;
+}
+
+.hero-area__information, .hero-area__image {
+    padding: 1em;
+}
+
+.hero-area__button {
+
+    border: none;
+}
+
+
+
+ul {
+    list-style: none;
+
+}
+
+/* Main section style */
+
+.main__content {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.main-cards__container {
+
+    display: flex;
+    padding-top: 1.5em;
+}
+
+.main__title {
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
+.main-card__image {
+    border-radius: .5em;
+    border: solid blue 5px;
+}
+/* Quote section style */
+
+.quote {
+    background-color: #E5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+}
+
+.quote__author {
+    text-align: end;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Call to action */
+
+.callToAction {
+    background-color: #3882f6;
+    color: white;
+    border-radius: .3em;
+    margin: 3em 0;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.callToAction__button {
+    border: 2px white solid;
+    align-self: center;
+    
+}
+
+.callToAction h2, .callToAction p  {
+    margin: .2em;
+}
+
+/* Footer style */
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: .8em;
+    background-color: #1f2937;
+    color: #F9FAF8; 
+    font-size: 1.1rem;
+}
