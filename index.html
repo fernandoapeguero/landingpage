@@ -9,68 +9,91 @@
 </head>
 <body>
         <header>
-            <div class="navigation">
-                <h2>Header Logo</h2>
+            <div class="container">
 
-                <nav>
-                    <ul>
-                        <li>Hero</li>
-                        <li>Content</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </nav>
+                <div class="header__navigation">
+                    <h2>Header Logo</h2>
+    
+                    <nav>
+                        <ul class="header__links">
+                            <li>Hero</li>
+                            <li>Content</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </nav>
+                </div>
 
+                    
                 <div class="hero__area">
 
                     <div class="hero-area__information">
                         <h1>This website is awesome</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni, aperiam perspiciatis perferendis et culpa qui facilis libero rerum nihil natus ab velit eum quos at! Culpa assumenda veniam unde!</p>
-                        <button>Sign up</button>
+                        <button class="hero-area__button">Sign up</button>
                     </div>
                     
-                    <img src="http://www.fillmurray.com/400/200" alt="Placeholder of fill murray">
+                    <img class="hero-area__image" src="http://www.fillmurray.com/400/200" alt="Placeholder of fill murray">
 
                 </div>
 
+                
             </div>
-
         </header>
 
 
         <main>
-            <div id="main__information">
-
-                <h2>Some random information.</h2>
-                <div class="cards_container">
-                    <div class="card">
-                        <img src="https://www.fillmurray.com/100/100" alt="placeholder fill murray image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://www.fillmurray.com/100/100" alt="placeholder fill murray image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://www.fillmurray.com/100/100" alt="placeholder fill murray image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://www.fillmurray.com/100/100" alt="placeholder fill murray image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
+            <div class="main__content">
+                <div class="container">
+                
+                    <h2 class="main__title">Some random information.</h2>
+                    <div class="main-cards__container">
+                        <div class="card">
+                            <img class="main-card__image"  src="https://www.fillmurray.com/150/150" alt="placeholder fill murray image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
+                        </div>
+                        <div class="card">
+                            <img class="main-card__image"  src="https://www.fillmurray.com/150/150" alt="placeholder fill murray image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
+                        </div>
+                        <div class="card">
+                            <img class="main-card__image" src="https://www.fillmurray.com/150/150" alt="placeholder fill murray image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
+                        </div>
+                        <div class="card">
+                            <img class="main-card__image"  src="https://www.fillmurray.com/150/150" alt="placeholder fill murray image">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolores.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="quote">
+                <div class="container">
+                    <figure>
+                    <blockquote class="quote__testimonial">    
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vero autem dolore consequuntur fugit cum at, pariatur nostrum minima rerum id voluptate aspernatur sapiente tempora quaerat deleniti nihil veniam eius!
+                    </blockquote>
+                    <figcaption class="quote__author">-Arlinton Morales</figcaption>
+                </figure>
+                </div>
+            </div>
 
-            <div class="testimonial">
+            <div id="calltoaction" class="container">
 
-            <blockquote>    
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, vero autem dolore consequuntur fugit cum at, pariatur nostrum minima rerum id voluptate aspernatur sapiente tempora quaerat deleniti nihil veniam eius!
-            </blockquote>
-            <figcaption>-Arlinton Morales</figcaption>
+                
+                <div class="callToAction">
+                    <div>
+                        <h2>Call to action! it's time!</h2>
+                        <p>Sign up  for our product by clicking that button right over there</p>
+                    </div>
+
+                    <button class="callToAction__button">Sign up</button>
+                </div>
+        
             </div>
         </main>
 
-        <footer>
+        <footer class="footer">
             <p>Copyright &copy; Fernando Peguero</p>
         </footer>
 
